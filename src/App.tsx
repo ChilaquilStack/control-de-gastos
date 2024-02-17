@@ -1,9 +1,11 @@
 import { FC } from 'react';
-
-import './App.css'
+import {Header, NuevoPresupuesto } from './components';
 
 const App: FC = () => (
-  <h1>Control de gastos</h1>
+  <>
+    <Header />
+    <NuevoPresupuesto/>
+  </>
 )
 
 export default App
